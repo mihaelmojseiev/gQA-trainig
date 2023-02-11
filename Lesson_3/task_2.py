@@ -6,9 +6,9 @@
 friends = ["John", "Marta", "James", "Amanda", "Marianna"]
 headname = 'Names'
 
-head = headname.center(35, "*")
+headname = headname.center(35, "*")
 
-print(head)
+print(headname)
 
 for j in range(0,len(friends)):
     print(f"{friends[j]:>20}")
