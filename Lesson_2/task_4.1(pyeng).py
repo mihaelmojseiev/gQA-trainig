@@ -9,7 +9,7 @@ nat = "ip nat inside source list ACL interface FastEthernet0/1 overload"
 new_string = nat.replace('FastEthernet', 'GigabitEthernet')
 print(new_string)
 
-# sor
+# or
 
 #nat = "ip nat inside source list ACL interface FastEthernet0/1 overload"
 #print(nat.replace('FastEthernet', 'GigabitEthernet'))
