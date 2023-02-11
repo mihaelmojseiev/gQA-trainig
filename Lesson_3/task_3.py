@@ -4,7 +4,9 @@ import ast
 import json
 tias = " name=Amanda=sssss&age=32&&salary=1500&currency=euro "
 # tias = tias.replace('&','').split('=sssss')
-tias = tias.replace(' ','').split('=')
+tias = tias.replace(' ','').replace('&',' ').replace('=sssss',' ').replace('  ',' ').replace(' ',';')
+dictionary = dict(subString.split("=") for subString in tias.split(";"))
+print(dictionary)
 print(tias)
 
 #
@@ -14,7 +16,7 @@ print(tias)
 #   tias.remove('')
 #
 # tias = [x.split('=sssss')[0] for x in tias]
-# tias = str(tias).split('=')
+# tias = strс(tias).split('=')
 # stringg = ''
 #
 # for x in tias:
