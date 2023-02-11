@@ -16,9 +16,5 @@
 
 ip = "192.168.3.1"
 sp = ip.split(".")
-sp0 = bin(int(sp[0]))[2:]
-sp1 = bin(int(sp[1]))[2:]
-sp2 = bin(int(sp[2]))[2:]
-sp3 = bin(int(sp[3]))[2:]
 print(sp[0],sp[1],sp[2],sp[3])
-print(sp0,sp1,sp2,sp3)
+print(bin(int(sp[0]))[2:],bin(int(sp[1]))[2:],bin(int(sp[2]))[2:],bin(int(sp[3]))[2:])

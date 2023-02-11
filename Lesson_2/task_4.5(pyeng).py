@@ -9,10 +9,10 @@
  command2 = "switchport trunk allowed vlan 1,3,8,9"
 
 """
-command1 = "switchport trunk allowed vlan 1,2,3,5,8"
-command2 = "switchport trunk allowed vlan 1,3,8,9"
-vlan1 = command1.split(" ")[-1].split(",")
-vlan2 = command2.split(" ")[-1].split(",")
+vlan1 = "switchport trunk allowed vlan 1,2,3,5,8"
+vlan2 = "switchport trunk allowed vlan 1,3,8,9"
+vlan1 = vlan1.split(" ")[-1].split(",")
+vlan2 = vlan2.split(" ")[-1].split(",")
 result = []
 for i in vlan1:
     for j in vlan2:

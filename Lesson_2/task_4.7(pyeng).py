@@ -8,5 +8,5 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
-result = ''.join(format(ord(c), 'b') for c in mac)
-print(result)
+mac = ''.join(format(ord(c), 'b') for c in mac)
+print(mac)
