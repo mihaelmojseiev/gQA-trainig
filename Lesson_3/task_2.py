@@ -11,4 +11,4 @@ headname = headname.center(35, "*")
 print(headname)
 
 for j in range(0,len(friends)):
-    print(f"{friends[j]:>20}")
+    print(f"{friends[j] : >20}")
