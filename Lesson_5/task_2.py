@@ -2,5 +2,7 @@
 # will get string True if var == 10 and False in other case. Using Tern operators
 
 var=10
+
 result = True if var == 10 else False
+
 print(result)

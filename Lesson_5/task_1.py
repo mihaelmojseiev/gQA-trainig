@@ -6,13 +6,11 @@ loop1 = ['apple', 'macbook', 'pro']
 for i in loop1:
     print(i)
 
-
 loop2 = 1
 
 while loop2 < 3:
     print(loop2)
     loop2 = loop2+1
-
 
 loop3 = ["apple", "macbook"]
 loop3num = [1, 2]

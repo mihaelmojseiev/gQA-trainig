@@ -7,6 +7,7 @@ n = [1, 2, 3, 4, 5, 6, 7, 8]
 l = len(n)
 even = []
 odd = []
+
 for i in range(l):
     if i % 2 == 0:
         odd.append(n[i])
